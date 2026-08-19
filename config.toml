@@ -1,0 +1,24 @@
+baseURL = "https://matteo404.github.io/"
+languageCode = "it-it"
+title = "TechFin Italia"
+theme = "mainroad"
+defaultContentLanguage = "it"
+
+[params]
+  description = "Finanza personale, tecnologia e attualità spiegata semplice"
+  subtitle = "Finanza · Tech · Attualità"
+
+[params.author]
+  name = "TechFin Italia"
+
+[params.sidebar]
+  home = "Home"
+  substr = "Articoli"
+  recent = "Recenti"
+  categories = "Categorie"
+  tags = "Tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
